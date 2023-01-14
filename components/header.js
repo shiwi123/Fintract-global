@@ -18,7 +18,7 @@ export default function header(props) {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src="/FG LOGO_White 1.svg"
+              src="/logo.png"
              
               width="30"
               height="30"
