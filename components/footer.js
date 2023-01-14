@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 export default function footer() {
   return (
     <footer className="pt-5">
@@ -50,7 +50,7 @@ export default function footer() {
           <div
             className="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"
           >
-            <a className="foot" href="#">About</a>
+            <Link className="foot" href="/post/career">Career</Link>
           </div>
           <div
             className="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"

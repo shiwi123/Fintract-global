@@ -1,18 +1,14 @@
+import Link from 'next/link';
 import Head from "next/head";
-import styles from "../styles/header.module.css";
-import Header from "../components/header";
-import Stats from "../components/stats";
-import About from "../components/about";
-import Feature from "../components/features";
-import Company from "../components/company";
-import Service from "../components/services";
-import Founder from "../components/founder";
-import Reviews from "../components/reviews";
-import Footer from "../components/footer";
-export default function Home() {
+import React from 'react';
+import Header from "../../components/header"
+import Footer from "../../components/footer"
+import Careers from '../../components/careers';
+
+export default function Career() {
   return (
-    <div>
-      <Head>
+    <>
+       <Head>
         <title>Fintract Global</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -48,31 +44,10 @@ export default function Home() {
           src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
         ></script>
       </Head>
-      <Header imageurl="/Mask group.svg" styleName={styles.navbg} />
-      <Stats />
-      <About />
-      <Feature />
-      <Company />
-      <Service />
-      <Founder />
-      <Reviews />
+      <Header imageurl="/career/header img.png" styleName="nav-career"/>
+      <Careers/>
       <Footer/>
-      <footer className="footer">
-        <script
-          src="https://unpkg.com/react/umd/react.production.min.js"
-          crossorigin
-        ></script>
-
-        <script
-          src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-          crossorigin
-        ></script>
-
-        <script
-          src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossorigin
-        ></script>
-      </footer>
-    </div>
+     
+    </>
   );
 }

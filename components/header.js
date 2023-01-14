@@ -7,17 +7,19 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
 import styles from "../styles/header.module.css";
+
 // import Heroimg from '../public/hero2.png'
 // const { heroContent, heroWrapper, imageWrapper } = styles;
 
-export default function header() {
+export default function header(props) {
   return (
     <>
-      <Navbar expand="lg" className={styles.navbg}>
+      <Navbar expand="lg" className={props.styleName} >
         <Container>
           <Navbar.Brand href="#home">
             <img
               src="/FG LOGO_White 1.svg"
+             
               width="30"
               height="30"
               className="d-inline-block align-top logo"
@@ -28,7 +30,7 @@ export default function header() {
           <Navbar.Collapse id="basic-navbar-nav" className={styles.navSearch}>
             <Nav className="me-auto">
               <NavDropdown title="Home" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Home</NavDropdown.Item>
+                <NavDropdown.Item href="/">Home</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
                 </NavDropdown.Item>
@@ -74,7 +76,9 @@ export default function header() {
         <div className={styles.imageWrapper}>
           <Image
             priority
-            src="/Mask group.svg"
+            // src="/Mask group.svg"
+            src = {props.imageurl}
+           
             layout="fill"
             objectFit="cover"
             objectPosition="center"
