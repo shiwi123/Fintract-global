@@ -126,7 +126,7 @@ body {
   line-height: 124.5%;
 }
 #company p {
-  max-width: 50vw;
+  max-width: 70vw;
   margin: auto;
   font-family: var(--text-font);
   font-size: medium;

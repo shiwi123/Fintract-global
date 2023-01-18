@@ -47,7 +47,7 @@ export default function features() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-xsm-12 mb-3 ">
+          <div className="col-lg-3 col-xsm-12 mb-3 mx-4">
             <div className="card">
               <div className="card-body">
                 <img

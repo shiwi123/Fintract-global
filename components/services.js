@@ -9,7 +9,7 @@ export default function services() {
     <div className="container mt-5">
       <div className="mb-5" style={styles}>
         <div className="row no-gutters">
-          <div className="col-md-6 text-center">
+          <div className="col-sm-6 text-center">
             <div className="card-body">
               <h1 className="card-title company-head">Open Banking</h1>
               <p className="cardText section-desc mt-3">
@@ -21,7 +21,7 @@ export default function services() {
               <button className="btn btn-primary">Read more</button>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6">
             <img src="/img-1.svg" className="img-fluid" alt="..." />
           </div>
         </div>
@@ -29,10 +29,10 @@ export default function services() {
 
       <div className="mb-5" style={styles}>
         <div className="row no-gutters">
-          <div className="col-md-6">
+          <div className="col-sm-6">
             <img src="/img-2.svg" className="img-fluid" alt="..." />
           </div>
-          <div className="col-md-6 text-center">
+          <div className="col-sm-6 text-center">
             <div className="card-body">
               <h1 className="card-title company-head">Fraudify</h1>
               <p className="cardText section-desc mt-3">
@@ -49,7 +49,7 @@ export default function services() {
 
       <div className="mb-5" style={styles}>
         <div className="row no-gutters">
-          <div className="col-md-6 text-center">
+          <div className="col-sm-6 text-center">
             <div className="card-body">
               <h1 className="card-title company-head">SME Lending</h1>
               <p className="cardText section-desc mt-3">
@@ -61,7 +61,7 @@ export default function services() {
               <button className="btn btn-primary">Read more</button>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6">
             <img src="/img-05.svg" className="img-fluid" alt="..." />
           </div>
         </div>
@@ -69,10 +69,10 @@ export default function services() {
 
       <div className="mb-5" style={styles}>
         <div className="row no-gutters">
-          <div className="col-md-6">
+          <div className="col-sm-6">
             <img src="/img-4.svg" className="img-fluid" alt="..." />
           </div>
-          <div className="col-md-6 text-center">
+          <div className="col-sm-6 text-center">
             <div className="card-body">
               <h1 className="card-title company-head">B2B Payment</h1>
               <p className="cardText section-desc mt-3">
@@ -89,7 +89,7 @@ export default function services() {
 
       <div className="mb-5" style={styles}>
         <div className="row no-gutters">
-          <div className="col-md-6 text-center">
+          <div className="col-sm-6 text-center">
             <div className="card-body">
               <h1 className="card-title company-head">Banking as a Service</h1>
               <p className="cardText section-desc mt-3">
@@ -101,7 +101,7 @@ export default function services() {
               <button className="btn btn-primary">Read more</button>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6">
             <img src="/img-3.svg" className="img-fluid" alt="..." />
           </div>
         </div>

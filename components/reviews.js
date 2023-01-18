@@ -18,9 +18,9 @@ export default function reviews() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="row">
-                  <div className="col-md-4 mb-3">
+                  <div className="col-lg-4 mb-3">
 
-                    <div className="card review" style={{maxWidth: "25rem"}}>
+                    <div className="card review" >
                       <div className="card-body">
                         <p className="cardText">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -42,8 +42,8 @@ export default function reviews() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-sm-12 ">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
+                  <div className="col-lg-4 col-sm-12 mb-3">
+                    <div className="card review" >
                       <div className="card-body">
                         <p className="cardText">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -65,81 +65,8 @@ export default function reviews() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4  col-sm-12">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
-                      <div className="card-body">
-                        <p className="cardText">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut eni mollit anim id est
-                          laborum.
-                        </p>
-
-                        <div
-                          className="card-image d-inline-flex align-items-center"
-                        >
-                          <img src="/person.svg" alt="" />
-
-                          <div className="name">
-                            <h6>Mr. Vikram tyagi, CEO</h6>
-                            <p>ABS. INC</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-lg-4 col-sm-12">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
-                      <div className="card-body">
-                        <p className="cardText">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut eni mollit anim id est
-                          laborum.
-                        </p>
-
-                        <div
-                          className="card-image d-inline-flex align-items-center"
-                        >
-                          <img src="/person.svg" alt="" />
-
-                          <div className="name">
-                            <h6>Mr. Vikram tyagi, CEO</h6>
-                            <p>ABS. INC</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 mb-3">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
-                      <div className="card-body">
-                        <p className="cardText">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut eni mollit anim id est
-                          laborum.
-                        </p>
-
-                        <div
-                          className="card-image d-inline-flex align-items-center"
-                        >
-                          <img src="/person.svg" alt="" />
-
-                          <div className="name">
-                            <h6>Mr. Vikram tyagi, CEO</h6>
-                            <p>ABS. INC</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 mb-3">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
+                  <div className="col-lg-4  col-sm-12 mb-3">
+                    <div className="card review" >
                       <div className="card-body">
                         <p className="cardText">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -165,8 +92,8 @@ export default function reviews() {
               </div>
               <div className="carousel-item">
                 <div className="row">
-                  <div className="col-md-4 mb-3">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
+                  <div className="col-lg-4 col-sm-12 mb-3">
+                    <div className="card review" >
                       <div className="card-body">
                         <p className="cardText">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -188,8 +115,8 @@ export default function reviews() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 mb-3">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
+                  <div className="col-lg-4 col-sm-12 mb-3">
+                    <div className="card review" >
                       <div className="card-body">
                         <p className="cardText">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -211,8 +138,81 @@ export default function reviews() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 mb-3">
-                    <div className="card review" style={{maxWidth: "25rem"}}>
+                  <div className="col-lg-4 col-sm-12 mb-3">
+                    <div className="card review" >
+                      <div className="card-body">
+                        <p className="cardText">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut eni mollit anim id est
+                          laborum.
+                        </p>
+
+                        <div
+                          className="card-image d-inline-flex align-items-center"
+                        >
+                          <img src="/person.svg" alt="" />
+
+                          <div className="name">
+                            <h6>Mr. Vikram tyagi, CEO</h6>
+                            <p>ABS. INC</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-lg-4 col-sm-12 mb-3">
+                    <div className="card review" >
+                      <div className="card-body">
+                        <p className="cardText">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut eni mollit anim id est
+                          laborum.
+                        </p>
+
+                        <div
+                          className="card-image d-inline-flex align-items-center"
+                        >
+                          <img src="/person.svg" alt="" />
+
+                          <div className="name">
+                            <h6>Mr. Vikram tyagi, CEO</h6>
+                            <p>ABS. INC</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-sm-12 mb-3">
+                    <div className="card review" >
+                      <div className="card-body">
+                        <p className="cardText">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut eni mollit anim id est
+                          laborum.
+                        </p>
+
+                        <div
+                          className="card-image d-inline-flex align-items-center"
+                        >
+                          <img src="/person.svg" alt="" />
+
+                          <div className="name">
+                            <h6>Mr. Vikram tyagi, CEO</h6>
+                            <p>ABS. INC</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-sm-12 mb-3">
+                    <div className="card review" >
                       <div className="card-body">
                         <p className="cardText">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
